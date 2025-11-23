@@ -42,7 +42,7 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
 (1, 'admin', 'CAC29D7A34687EB14B37068EE4708E7B', 'admin@mail.com', '', '2022-05-27 13:21:52');
 
--- --------------------------------------------------------
+-- ---------------codeastro-----------------------------------------CAC29D7A34687EB14B37068EE4708E7B
 
 --
 -- Table structure for table `dishes`
@@ -137,10 +137,10 @@ CREATE TABLE `restaurant` (
 --
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
-(1, 1, 'North Street Tavern', 'nthavern@mail.com', '3547854700', 'www.northstreettavern.com', '8am', '8pm', 'mon-sat', '1128 North St, White Plains', '6290877b473ce.jpg', '2022-05-27 08:10:35'),
-(2, 2, 'Eataly', 'eataly@gmail.com', '0557426406', 'www.eataly.com', '11am', '9pm', 'Mon-Sat', '800 Boylston St, Boston', '606d720b5fc71.jpg', '2022-05-27 08:06:41'),
-(3, 3, 'Nan Xiang Xiao Long Bao', 'nanxiangbao45@mail.com', '1458745855', 'www.nanxiangbao45.com', '9am', '8pm', 'mon-sat', 'Queens, New York', '6290860e72d1e.jpg', '2022-05-27 08:04:30'),
-(4, 4, 'Highlands Bar & Grill', 'hbg@mail.com', '6545687458', 'www.hbg.com', '7am', '8pm', 'mon-sat', '812 Walter Street', '6290af6f81887.jpg', '2022-05-27 11:01:03');
+(1, 1, 'panshi restuarant', 'pansi@mail.com', '3547854700', 'www.pansiinn.com', '8am', '8pm', 'mon-sat', 'zindabazer,sylhet', '6914a1b47ab82.jpg', '2025-11-23 06:58:14'),
+(2, 2, 'Unimart', 'unimart@gmail.com', '0557426406', 'www.unimart.com', '11am', '9pm', 'Mon-Sat', 'Amborkhana sylhet', '6914a645402bf.jpg', '2025-11-23 06:59:11'),
+(3, 3, 'Kacchi Dain', 'kacchi dain@mail.com', '1458745855', 'www.kacchi.com', '9am', '8pm', 'mon-sat', 'subidbazer,sylhet', '6914a58974fc1.jpg', '2025-11-23 07:00:12'),
+(4, 1, 'Pach vhai resturant', 'pachvhairesturant@mail.com', '6545687458', 'www.pachvhairesturant.com', '6am', '8pm', '24hr-x7', 'zindabazer', '69189e26671cd.jpg', '2025-11-23 06:53:51');
 
 -- --------------------------------------------------------
 
@@ -188,12 +188,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `address`, `status`, `date`) VALUES
-(1, 'eric', 'Eric', 'Lopez', 'eric@mail.com', '1458965547', 'a32de55ffd7a9c4101a0c5c8788b38ed', '87 Armbrester Drive', 1, '2022-05-27 08:40:36'),
 (2, 'harry', 'Harry', 'Holt', 'harryh@mail.com', '3578545458', 'bc28715006af20d0e961afd053a984d9', '33 Stadium Drive', 1, '2022-05-27 08:41:07'),
-(3, 'james', 'James', 'Duncan', 'james@mail.com', '0258545696', '58b2318af54435138065ee13dd8bea16', '67 Hiney Road', 1, '2022-05-27 08:41:37'),
-(4, 'christine', 'Christine', 'Moore', 'christine@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', '114 Test Address', 1, '2022-05-01 05:14:42'),
-(5, 'scott', 'Scott', 'Miller', 'scott@mail.com', '7896547850', '5f4dcc3b5aa765d61d8327deb882cf99', '63 Charack Road', 1, '2022-05-27 10:53:51'),
-(6, 'liamoore', 'Liam', 'Moore', 'liamoore@mail.com', '7896969696', '5f4dcc3b5aa765d61d8327deb882cf99', '122 Bleck Street', 1, '2022-05-27 12:57:00');
+(1, 'eric', 'Eric', 'Lopez', 'eric@mail.com', '1458965547', 'a32de55ffd7a9c4101a0c5c8788b38ed', '87 Armbrester Drive', 1, '2022-05-27 08:40:36'),
+(4, 'Tonu', 'rOY', 'Moore', 'tonu@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', '114 Test Address', 1, '2025-11-23 07:18:30'),
+(5, 'Tirto ', 'kayre', 'bisal', 'Tirto@mail.com', '7896547850', '5f4dcc3b5aa765d61d8327deb882cf99', 'Chatok,sylhet', 1, '2025-11-23 07:17:37'),
+(6, 'Rahul', 'Roy', '.', 'Rahul@mail.com', '7896969696', '5f4dcc3b5aa765d61d8327deb882cf99', '122 Street', 1, '2025-11-23 07:17:06'),
+(7, 'Pritom', 'roy', '..', 'Pritom@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', 'Sylhet', 1, '2022-05-01 05:14:42'),
+(3, 'Akash', 'Saha', '.', 'akash@mail.com', '0258545696', '58b2318af54435138065ee13dd8bea16', '67 Hiney Road', 1, '2025-11-23 07:16:37');
 
 -- --------------------------------------------------------
 
